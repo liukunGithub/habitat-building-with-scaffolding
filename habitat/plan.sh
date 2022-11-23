@@ -14,7 +14,7 @@ pkg_origin=andyliu_4
 
 # Required.
 # Sets the version of the package
-pkg_version="0.1.0"
+pkg_version="0.2.0"
 
 # Optional.
 # The name and email address of the package maintainer.
@@ -54,7 +54,7 @@ pkg_shasum="TODO"
 # at three levels of specificity: `origin/package`, `origin/package/version`, or
 # `origin/package/version/release`.
 pkg_deps=(core/glibc)
-pkg_deps=(core/imagemagick)
+pkg_deps=(andyliu_4/imagemagick)
 
 # Optional.
 # An array of the package dependencies needed only at build time.
